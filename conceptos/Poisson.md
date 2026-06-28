@@ -1,4 +1,4 @@
-## Uso
+﻿## Uso
 
 Se utiliza para modelar variables de conteo.
 - ## Ejemplos

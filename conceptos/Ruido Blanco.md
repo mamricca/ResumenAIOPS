@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 El ruido blanco es una serie temporal formada por observaciones independientes entre sí.
 
 No presenta tendencia, estacionalidad ni dependencia temporal.
+
 - ## Características
 - Media aproximadamente constante.
 - Varianza aproximadamente constante.

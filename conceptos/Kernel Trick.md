@@ -1,4 +1,5 @@
-﻿# Kernel RBF
+# Kernel RBF
+
 - ## Definición
   
   El Kernel RBF (Radial Basis Function o Kernel Gaussiano) es una función kernel que mide la similitud entre dos observaciones según la distancia que existe entre ellas.

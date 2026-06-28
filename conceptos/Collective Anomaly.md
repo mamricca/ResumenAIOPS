@@ -1,6 +1,7 @@
-﻿## Definición
+## Definición
 
 Una Collective Anomaly ocurre cuando ninguna observación individual parece anómala, pero el patrón completo sí.
+
 - ## Ejemplos
 - Memory leak.
 - Degradación progresiva del rendimiento.

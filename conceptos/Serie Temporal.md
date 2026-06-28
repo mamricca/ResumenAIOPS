@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 Una serie temporal es una secuencia ordenada de observaciones donde cada una está asociada a un instante de tiempo.
 
 A diferencia de un dataset tradicional, el orden de las observaciones es importante, ya que el pasado puede influir sobre el futuro.
+
 - ## Ver
 - [Clase 12](<Clase 12.md>)
 - ## Conceptos relacionados

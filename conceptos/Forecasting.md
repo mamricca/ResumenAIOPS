@@ -1,6 +1,7 @@
-﻿## Definición
+## Definición
 
 El forecasting consiste en estimar valores futuros de una [Serie Temporal](<Serie Temporal.md>) utilizando las observaciones del pasado.
+
 - ## Objetivo
   
   Dada una serie:

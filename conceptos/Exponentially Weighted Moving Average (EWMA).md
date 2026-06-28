@@ -1,6 +1,7 @@
-﻿## Definición
+## Definición
 
 El Exponentially Weighted Moving Average (EWMA) es un promedio móvil que asigna mayor peso a las observaciones más recientes.
+
 - ## Objetivo
   
   Reducir el ruido manteniendo una mayor capacidad de respuesta frente a cambios recientes.

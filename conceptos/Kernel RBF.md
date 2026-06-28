@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 El Kernel Trick permite aplicar algoritmos lineales sobre datos que no son linealmente separables, sin calcular explícitamente una transformación a un espacio de mayor dimensión.
 - ## Idea

@@ -1,7 +1,7 @@
 ﻿# Isolation Forest
 
 Ver:
-- [Semana 10 - Isolation Forest](<Semana 10 - Isolation Forest.md>)
+- [Semana 10 - Isolation Forest](<../clases/Semana 10 - Isolation Forest.md>)
   
   Conceptos relacionados
 - [Score de Liu](<Score de Liu.md>)

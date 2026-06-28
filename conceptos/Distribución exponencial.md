@@ -1,6 +1,7 @@
-﻿## Uso
+## Uso
 
 Modela el tiempo entre eventos.
+
 - ## Ejemplo
   
   Tiempo entre fallos de un sistema.

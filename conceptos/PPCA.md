@@ -1,6 +1,7 @@
 ﻿## Definición
 
 Probabilistic Principal Component Analysis (PPCA) es una versión probabilística de [PCA](<PCA.md>) que modela cómo se generan los datos a partir de un conjunto reducido de variables latentes.
+
 - ## Idea
   
   En lugar de reducir la dimensionalidad únicamente desde un punto de vista geométrico, PPCA asume que cada observación se genera mediante:

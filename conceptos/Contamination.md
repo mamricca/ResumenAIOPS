@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 **Contamination** es un hiperparámetro que indica la proporción esperada de anomalías en el conjunto de datos.
 
 Se utiliza para determinar el umbral a partir del cual una observación será clasificada como anómala.
+
 - ## Funcionamiento
   
   Una vez calculado el [Score de Liu](<Score de Liu.md>) para todas las observaciones:

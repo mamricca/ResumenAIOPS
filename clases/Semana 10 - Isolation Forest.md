@@ -1,4 +1,5 @@
-﻿# Clase 10 - Isolation Forest
+# Clase 10 - Isolation Forest
+
 - ## Idea principal
   
   Cada observación se representa mediante un vector de features. Durante el funcionamiento normal del sistema, las observaciones se concentran en determinadas regiones del espacio.
@@ -44,7 +45,7 @@
   
   Se define (c(n)) como la profundidad promedio esperada de un árbol construido con (n) observaciones.
   
-  Como cada árbol de Isolation Forest se construye utilizando una submuestra de tamaño [ψ (Subsampling)](<ψ (Subsampling).md>) , la normalización utiliza **c(ψ)**.
+  Como cada árbol de Isolation Forest se construye utilizando una submuestra de tamaño [ψ (Subsampling)](<../conceptos/ψ (Subsampling).md>) , la normalización utiliza **c(ψ)**.
 - Profundidad mucho menor que c(ψ)→ posible anomalía.
 - Profundidad cercana a (c(\psi)) → comportamiento habitual.
   
@@ -54,7 +55,7 @@
 - se alcanza la profundidad máxima definida por la implementación.
   
   ---
-- ## [Score de Liu](<Score de Liu.md>)
+- ## [Score de Liu](<../conceptos/Score de Liu.md>)
   
   Se entrenan **m** árboles independientes utilizando submuestras de tamaño **ψ**.
   
@@ -64,7 +65,7 @@
   
   ---
 - ## Hiperparámetros
-- ### [ψ (Subsampling)](<ψ (Subsampling).md>) 
+- ### [ψ (Subsampling)](<../conceptos/ψ (Subsampling).md>) 
   
   Tamaño de la submuestra utilizada para construir cada árbol.
 - Reduce el costo computacional.
@@ -75,7 +76,7 @@
   Cantidad de árboles del bosque.
 - Más árboles → score más estable.
 - Habitualmente entre 100 y 200 árboles.
-- ### [Contamination](<Contamination.md>)
+- ### [Contamination](<../conceptos/Contamination.md>)
   
   Define qué porcentaje de observaciones con mayor score se clasificará como anomalía.
   

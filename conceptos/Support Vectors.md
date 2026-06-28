@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 Los Support Vectors son las observaciones más cercanas al hiperplano de decisión.
 
 En un SVM son los puntos que se encuentran sobre los hiperplanos que delimitan el margen.
+
 - ## ¿Por qué son importantes?
   
   Los Support Vectors son las únicas observaciones que determinan la posición del hiperplano óptimo.

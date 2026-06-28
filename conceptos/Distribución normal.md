@@ -1,4 +1,5 @@
-﻿## Características
+## Características
+
 - Está definida por una media y un desvío estándar.
 - Los valores cercanos a la media son más frecuentes.
 - Los valores alejados son cada vez menos frecuentes.

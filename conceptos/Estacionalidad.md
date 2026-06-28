@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 La estacionalidad es un patrón que se repite periódicamente en una serie temporal.
 
 Puede corresponder a ciclos diarios, semanales, mensuales o de cualquier otro período fijo.
+
 - ## ¿Cómo identificarla?
   
   La [Autocorrelación (ACF)](<Autocorrelación (ACF).md>) presenta picos que se repiten regularmente separados por el período de la serie.

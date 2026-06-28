@@ -1,6 +1,7 @@
-﻿## Definición
+## Definición
 
 Un lag es el desplazamiento temporal utilizado para comparar una serie consigo misma.
+
 - ## Ejemplo
   
   Dada la serie:

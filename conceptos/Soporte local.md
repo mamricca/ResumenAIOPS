@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 El soporte local describe la cantidad de observaciones normales que existen alrededor de un punto del espacio de observaciones.
 
 Es una medida de qué tan poblada o densa es una región.
+
 - ## Interpretación
 - Alto soporte local → existen muchas observaciones cercanas → comportamiento habitual.
 - Bajo soporte local → existen pocas observaciones cercanas → comportamiento poco frecuente.

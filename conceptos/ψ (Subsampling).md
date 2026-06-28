@@ -33,5 +33,5 @@ En lugar de utilizar todo el conjunto de datos, cada árbol se entrena con una m
   
   Isolation Forest no necesita construir árboles utilizando todo el dataset. Las anomalías suelen poder detectarse utilizando submuestras relativamente pequeñas.
 - ## Relacionado
-- [Semana 10 - Isolation Forest](<Semana 10 - Isolation Forest.md>)
+- [Semana 10 - Isolation Forest](<../clases/Semana 10 - Isolation Forest.md>)
 - [Score de Liu](<Score de Liu.md>)

@@ -1,8 +1,9 @@
-﻿## Definición
+## Definición
 
 La autocorrelación mide la relación entre una serie temporal y una copia de sí misma desplazada en el tiempo.
 
 Ese desplazamiento se denomina [Lag](<Lag.md>).
+
 - ## ¿Para qué sirve?
   
   Permite analizar:

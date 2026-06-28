@@ -1,6 +1,7 @@
-﻿## Definición
+## Definición
 
 C es un hiperparámetro de SVM que controla el equilibrio entre maximizar el margen y minimizar los errores de clasificación.
+
 - ## Funcionamiento
 - **C grande**
 	- Penaliza fuertemente las violaciones del margen.
