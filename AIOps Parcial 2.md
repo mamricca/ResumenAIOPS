@@ -1,0 +1,34 @@
+# Clases
+- [[Clase 9 - Modelos Generativos]]
+- [[Clase 10 - Isolation Forest]]
+- [[Clase 11 - One-Class SVM]]
+- [[Clase 12 - Series Temporales]]
+- # Conceptos
+- ## Modelado probabilístico
+- [[Likelihood]]
+- [[PCA]]
+- [[PPCA]]
+- ## Algoritmos
+- [[Isolation Forest]]
+- [[One-Class SVM]]
+- ## Componentes de SVM
+- [[Support Vectors]]
+- [[Soft Margin]]
+- [[Kernel Trick]]
+- [[Kernel RBF]]
+- [[γ (Gamma)]]
+- [[ν (Nu)]]
+- [[C]]
+- ## Series temporales
+- [[Serie Temporal]]
+- [[Autocorrelación (ACF)]]
+- [[Lag]]
+- [[Estacionalidad]]
+- [[Forecasting]]
+- ## Detección de anomalías
+- [[Rolling Z-Score]]
+- [[Moving Average (MA)]]
+- [[Exponentially Weighted Moving Average (EWMA)]]
+- [[Point Anomaly]]
+- [[Contextual Anomaly]]
+- [[Collective Anomaly]]
