@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 **ψ (psi)** representa el tamaño de la submuestra utilizada para construir cada árbol de Isolation Forest.
 
@@ -12,7 +12,7 @@ En lugar de utilizar todo el conjunto de datos, cada árbol se entrena con una m
   
   La profundidad promedio esperada depende del tamaño del árbol.
   
-  Como cada árbol contiene **ψ** observaciones, la normalización del [[Score de Liu]] utiliza **c(ψ)** en lugar de **c(n)**.
+  Como cada árbol contiene **ψ** observaciones, la normalización del [Score de Liu](<Score de Liu.md>) utiliza **c(ψ)** en lugar de **c(n)**.
 - Profundidad mucho menor que **c(ψ)** → posible anomalía.
 - Profundidad cercana a **c(ψ)** → comportamiento habitual.
 - ## Valores habituales
@@ -33,5 +33,5 @@ En lugar de utilizar todo el conjunto de datos, cada árbol se entrena con una m
   
   Isolation Forest no necesita construir árboles utilizando todo el dataset. Las anomalías suelen poder detectarse utilizando submuestras relativamente pequeñas.
 - ## Relacionado
-- [[Semana 10 - Isolation Forest]]
-- [[Score de Liu]]
+- [Semana 10 - Isolation Forest](<Semana 10 - Isolation Forest.md>)
+- [Score de Liu](<Score de Liu.md>)

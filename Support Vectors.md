@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 Los Support Vectors son las observaciones más cercanas al hiperplano de decisión.
 
@@ -17,15 +17,15 @@ En un SVM son los puntos que se encuentran sobre los hiperplanos que delimitan e
   La distancia entre estos dos hiperplanos constituye el margen.
 - ## En la optimización
   
-  Al resolver el problema mediante [[Multiplicadores de Lagrange]], únicamente los Support Vectors tienen multiplicadores distintos de cero.
+  Al resolver el problema mediante [Multiplicadores de Lagrange](<Multiplicadores de Lagrange.md>), únicamente los Support Vectors tienen multiplicadores distintos de cero.
   
   Por eso la solución final depende únicamente de ellos.
 - ## Idea clave
   
   Los Support Vectors "sostienen" el margen del SVM: son los puntos críticos que determinan la frontera de decisión.
 - ## Relacionado
-- [[Soft Margin]]
-- [[C]]
-- [[Multiplicadores de Lagrange]]
-- [[Kernel Trick]]
-- [[One-Class SVM]]
+- [Soft Margin](<Soft Margin.md>)
+- [C](<C.md>)
+- [Multiplicadores de Lagrange](<Multiplicadores de Lagrange.md>)
+- [Kernel Trick](<Kernel Trick.md>)
+- [One-Class SVM](<One-Class SVM.md>)

@@ -1,4 +1,4 @@
-## Objetivo
+﻿## Objetivo
 
 Asignar a cada observación un puntaje que indique qué tan probable es que sea una anomalía.
 - ## Idea
@@ -21,7 +21,7 @@ Asignar a cada observación un puntaje que indique qué tan probable es que sea 
 - Mayor profundidad → menor score.
   
   La profundidad se normaliza utilizando **c(ψ)** para poder comparar árboles construidos con el mismo tamaño de submuestra.
-- ## Relación con [[Contamination]]
+- ## Relación con [Contamination](<Contamination.md>)
   
   El score **no decide por sí solo** si una observación es una anomalía.
   

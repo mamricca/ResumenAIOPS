@@ -1,19 +1,19 @@
-# Clase 9 - Detección estadística de anomalías y modelos generativos
-- ## [[Anomalía]]
+﻿# Clase 9 - Detección estadística de anomalías y modelos generativos
+- ## [Anomalía](<Anomalía.md>)
 - Una anomalía es una **observación poco compatible con el comportamiento habitual del sistema**.
 - Estadísticamente, es un evento que ocurre con **baja probabilidad bajo un modelo de comportamiento normal**.
 - Los sistemas suelen presentar patrones repetitivos (CPU, latencia, tráfico, KPI), por lo que los datos normales se concentran en determinadas regiones del espacio de observaciones.
   
   ---
-- ## [[Variable aleatoria]] y [[Distribución]]
+- ## [Variable aleatoria](<Variable aleatoria.md>) y [Distribución](<Distribución.md>)
 - Una métrica observada puede modelarse como una **variable aleatoria**.
 - La distribución describe qué valores son frecuentes y cuáles son raros.
-- Como primera aproximación suele utilizarse una [[Distribución normal]].
-- ### [[Distribución normal]]
+- Como primera aproximación suele utilizarse una [Distribución normal](<Distribución normal.md>).
+- ### [Distribución normal](<Distribución normal.md>)
 - La **media** representa el comportamiento promedio esperado.
 - El **desvío estándar** representa la variabilidad natural del sistema.
 - Cuanto mayor sea el desvío estándar, mayor será la fluctuación esperada.
-- ### [[Z-Score]]
+- ### [Z-Score](<Z-Score.md>)
 - Mide cuántos desvíos estándar separan una observación de la media.
 - Permite comparar observaciones considerando la variabilidad de la métrica.
 - Cuanto mayor sea el valor absoluto del Z-Score, menos frecuente resulta la observación.
@@ -36,36 +36,36 @@
 - reducción de falsos positivos.
   
   ---
-- ## [[Modelos paramétricos]]
+- ## [Modelos paramétricos](<Modelos paramétricos.md>)
   
   No todas las métricas siguen la misma distribución.
   
   Ejemplos:
-- Latencia agregada → [[Distribución normal]] o Log-normal.
-- Errores por minuto → [[Poisson]].
-- Tiempo entre fallos → [[Distribución exponencial]].
+- Latencia agregada → [Distribución normal](<Distribución normal.md>) o Log-normal.
+- Errores por minuto → [Poisson](<Poisson.md>).
+- Tiempo entre fallos → [Distribución exponencial](<Distribución exponencial.md>).
 - Uso de CPU → Aproximadamente normal.
-- Requests por ventana → [[Poisson]].
-- ### [[Poisson]]
+- Requests por ventana → [Poisson](<Poisson.md>).
+- ### [Poisson](<Poisson.md>)
 - Se utiliza para modelar variables de conteo.
 - El parámetro λ representa la cantidad promedio esperada de eventos.
   
   ---
-- ## [[Likelihood]]
+- ## [Likelihood](<Likelihood.md>)
   
   La likelihood mide **qué tan compatible es una observación con el modelo aprendido**.
 - Likelihood alta → comportamiento esperado.
 - Likelihood baja → posible anomalía.
   
   En variables continuas interesa la **densidad** alrededor de una observación, no la probabilidad de un valor exacto.
-- ### [[Soporte local]]
+- ### [Soporte local](<Soporte local.md>)
 - Regiones densas → muchas observaciones cercanas.
 - Regiones con poco soporte → pocas observaciones cercanas.
   
   **Idea clave:** las anomalías aparecen en regiones de baja densidad o bajo soporte local.
   
   ---
-- ## [[Gaussian Mixture Model]]
+- ## [Gaussian Mixture Model](<Gaussian Mixture Model.md>)
 - ### Problema
   
   Una única distribución normal puede representar mal sistemas con distintos modos normales de funcionamiento (por ejemplo, tráfico diurno y nocturno).
@@ -79,7 +79,7 @@
   Las anomalías corresponden a observaciones alejadas de todas las componentes o ubicadas entre ellas, donde la densidad es baja.
   
   ---
-- ## [[Modelo generativo]]
+- ## [Modelo generativo](<Modelo generativo.md>)
   
   En lugar de definir manualmente un modelo probabilístico, un modelo generativo aprende el comportamiento normal directamente a partir de los datos.
   
@@ -92,15 +92,15 @@
   Los parámetros del modelo son desconocidos y deben estimarse utilizando los datos de entrenamiento.
   
   ---
-- ## [[PCA]]
+- ## [PCA](<PCA.md>)
 - ### Objetivo
   
   Reducir la dimensionalidad de los datos.
 - ### Idea
 - Identifica variables correlacionadas.
 - Las resume mediante un conjunto mucho menor de variables.
-- La representación reducida se denomina [[Espacio latente]].
-- ### [[Espacio latente]]
+- La representación reducida se denomina [Espacio latente](<Espacio latente.md>).
+- ### [Espacio latente](<Espacio latente.md>)
 - Está representado por **z**.
 - **z** es una versión comprimida de la observación original que conserva la mayor parte de la información.
 - ### Reconstrucción
@@ -112,7 +112,7 @@
 - No permite calcular likelihood ni generar nuevas observaciones.
   
   ---
-- ## [[Probabilistic PCA]]
+- ## [Probabilistic PCA](<Probabilistic PCA.md>)
   
   PPCA combina PCA con un modelo probabilístico.
 - ### Idea

@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 C es un hiperparámetro de SVM que controla el equilibrio entre maximizar el margen y minimizar los errores de clasificación.
 - ## Funcionamiento
@@ -14,5 +14,5 @@ C es un hiperparámetro de SVM que controla el equilibrio entre maximizar el mar
   
   C controla el compromiso entre ajustar el modelo a los datos de entrenamiento y obtener una buena capacidad de generalización.
 - ## Relacionado
-- [[Soft Margin]]
-- [[One-Class SVM]]
+- [Soft Margin](<Soft Margin.md>)
+- [One-Class SVM](<One-Class SVM.md>)

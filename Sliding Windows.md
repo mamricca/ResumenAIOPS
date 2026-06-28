@@ -1,6 +1,6 @@
-## Definición
+﻿## Definición
 
-Sliding Windows es una técnica para convertir una [[Serie Temporal]] en un dataset tabular.
+Sliding Windows es una técnica para convertir una [Serie Temporal](<Serie Temporal.md>) en un dataset tabular.
 
 Consiste en tomar ventanas consecutivas de tamaño fijo, donde cada ventana se transforma en una fila del dataset.
 - ## ¿Para qué sirve?
@@ -21,6 +21,6 @@ Consiste en tomar ventanas consecutivas de tamaño fijo, donde cada ventana se t
   
   Sliding Windows transforma una serie temporal en un conjunto de ejemplos apto para algoritmos tradicionales de Machine Learning.
 - ## Relacionado
-- [[Serie Temporal]]
-- [[Forecasting]]
-- [[Lag]]
+- [Serie Temporal](<Serie Temporal.md>)
+- [Forecasting](<Forecasting.md>)
+- [Lag](<Lag.md>)

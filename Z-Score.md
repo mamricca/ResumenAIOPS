@@ -1,4 +1,4 @@
-## Objetivo
+﻿## Objetivo
 
 Medir qué tan alejada está una observación de la media.
 - ## Interpretación
@@ -8,4 +8,4 @@ Medir qué tan alejada está una observación de la media.
   
   Valores superiores a ±3 desvíos estándar suelen considerarse posibles anomalías.
 - ## Relacionado
-- [[Distribución normal]]
+- [Distribución normal](<Distribución normal.md>)

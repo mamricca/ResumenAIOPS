@@ -1,6 +1,6 @@
-## Definición
+﻿## Definición
 
-ν (nu) es un hiperparámetro de [[One-Class SVM]] que controla la cantidad esperada de anomalías y la complejidad de la frontera.
+ν (nu) es un hiperparámetro de [One-Class SVM](<One-Class SVM.md>) que controla la cantidad esperada de anomalías y la complejidad de la frontera.
 - ## Funcionamiento
 - **ν pequeño**
 	- Frontera más amplia.
@@ -20,4 +20,4 @@
   
   ν controla el compromiso entre una frontera conservadora y una frontera más estricta alrededor del comportamiento normal.
 - ## Relacionado
-- [[One-Class SVM]]
+- [One-Class SVM](<One-Class SVM.md>)

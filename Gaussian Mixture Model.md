@@ -1,4 +1,4 @@
-## Objetivo
+﻿## Objetivo
 
 Modelar distribuciones con varios modos normales de funcionamiento.
 - ## Idea
@@ -13,4 +13,4 @@ Modelar distribuciones con varios modos normales de funcionamiento.
   Permite modelar distribuciones multimodales.
 - ## Detecta anomalías
   
-  Mediante [[Likelihood]] baja.
+  Mediante [Likelihood](<Likelihood.md>) baja.

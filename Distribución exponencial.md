@@ -1,4 +1,4 @@
-## Uso
+﻿## Uso
 
 Modela el tiempo entre eventos.
 - ## Ejemplo
@@ -6,4 +6,4 @@ Modela el tiempo entre eventos.
   Tiempo entre fallos de un sistema.
 - ## Relación
   
-  Es el complemento natural de [[Poisson]], que modela la cantidad de eventos.
+  Es el complemento natural de [Poisson](<Poisson.md>), que modela la cantidad de eventos.

@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 Una Point Anomaly es una observación individual cuyo valor difiere claramente del comportamiento habitual.
 - ## Ejemplo
@@ -8,6 +8,6 @@ Una Point Anomaly es una observación individual cuyo valor difiere claramente d
   
   La anomalía está en una única observación.
 - ## Relacionado
-- [[Serie Temporal]]
-- [[Contextual Anomaly]]
-- [[Collective Anomaly]]
+- [Serie Temporal](<Serie Temporal.md>)
+- [Contextual Anomaly](<Contextual Anomaly.md>)
+- [Collective Anomaly](<Collective Anomaly.md>)

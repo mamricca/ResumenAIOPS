@@ -1,10 +1,10 @@
-## Objetivo
+﻿## Objetivo
 
 Aprender cómo se generan los datos normales.
 - ## Permite
-- estimar [[Likelihood]];
+- estimar [Likelihood](<Likelihood.md>);
 - generar nuevas observaciones;
 - modelar la distribución de los datos.
 - ## Ejemplos
-- [[Gaussian Mixture Model]]
-- [[Probabilistic PCA]]
+- [Gaussian Mixture Model](<Gaussian Mixture Model.md>)
+- [Probabilistic PCA](<Probabilistic PCA.md>)

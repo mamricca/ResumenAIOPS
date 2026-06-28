@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 Una Contextual Anomaly es una observación que solo resulta anómala considerando el contexto temporal.
 
@@ -10,6 +10,6 @@ El mismo valor puede ser normal en un momento y anómalo en otro.
   
   La anomalía depende del contexto y no únicamente del valor observado.
 - ## Relacionado
-- [[Serie Temporal]]
-- [[Estacionalidad]]
-- [[Point Anomaly]]
+- [Serie Temporal](<Serie Temporal.md>)
+- [Estacionalidad](<Estacionalidad.md>)
+- [Point Anomaly](<Point Anomaly.md>)

@@ -1,6 +1,6 @@
-## Definición
+﻿## Definición
 
-El forecasting consiste en estimar valores futuros de una [[Serie Temporal]] utilizando las observaciones del pasado.
+El forecasting consiste en estimar valores futuros de una [Serie Temporal](<Serie Temporal.md>) utilizando las observaciones del pasado.
 - ## Objetivo
   
   Dada una serie:
@@ -17,7 +17,7 @@ El forecasting consiste en estimar valores futuros de una [[Serie Temporal]] uti
 - Muy simple.
 - Funciona como baseline.
 - No reacciona a cambios importantes.
-- ### [[Moving Average (MA)]]
+- ### [Moving Average (MA)](<Moving Average (MA).md>)
   
   Predice utilizando el promedio de las últimas observaciones.
 - Reduce el ruido.
@@ -25,16 +25,16 @@ El forecasting consiste en estimar valores futuros de una [[Serie Temporal]] uti
 - ## Modelos más avanzados
   
   Existen modelos que además consideran:
-- [[Tendencia]]
-- [[Estacionalidad]]
-- [[Autocorrelación (ACF)]]
+- [Tendencia](<Tendencia.md>)
+- [Estacionalidad](<Estacionalidad.md>)
+- [Autocorrelación (ACF)](<Autocorrelación (ACF).md>)
   
   para mejorar las predicciones.
 - ## Idea clave
   
   El forecasting utiliza el comportamiento pasado de una serie temporal para estimar sus valores futuros.
 - ## Relacionado
-- [[Serie Temporal]]
-- [[Moving Average (MA)]]
-- [[Estacionalidad]]
-- [[Autocorrelación (ACF)]]
+- [Serie Temporal](<Serie Temporal.md>)
+- [Moving Average (MA)](<Moving Average (MA).md>)
+- [Estacionalidad](<Estacionalidad.md>)
+- [Autocorrelación (ACF)](<Autocorrelación (ACF).md>)

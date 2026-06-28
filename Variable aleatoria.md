@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 Una variable aleatoria representa una métrica observada cuyo valor depende del azar.
 
@@ -9,4 +9,4 @@ Ejemplos:
 	- Error rate
 - ## Idea
   
-  Cada variable aleatoria posee una [[Distribución]] que describe qué valores son frecuentes y cuáles son raros.
+  Cada variable aleatoria posee una [Distribución](<Distribución.md>) que describe qué valores son frecuentes y cuáles son raros.

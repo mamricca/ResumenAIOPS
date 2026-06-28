@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 El Rolling Z-Score compara una observación con la media y el desvío estándar de una ventana móvil reciente.
 - ## Objetivo
@@ -14,5 +14,5 @@ El Rolling Z-Score compara una observación con la media y el desvío estándar 
   
   El Rolling Z-Score mide cuántos desvíos estándar se encuentra una observación respecto de su contexto reciente.
 - ## Relacionado
-- [[Moving Average (MA)]]
-- [[Serie Temporal]]
+- [Moving Average (MA)](<Moving Average (MA).md>)
+- [Serie Temporal](<Serie Temporal.md>)

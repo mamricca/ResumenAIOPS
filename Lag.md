@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 Un lag es el desplazamiento temporal utilizado para comparar una serie consigo misma.
 - ## Ejemplo
@@ -10,12 +10,12 @@ Un lag es el desplazamiento temporal utilizado para comparar una serie consigo m
 - Lag 2 → compara x₃ con x₁, x₄ con x₂, ...
 - ## Uso
   
-  Los lags se utilizan para calcular la [[Autocorrelación (ACF)]], construir [[Sliding Windows]] y realizar [[Forecasting]].
+  Los lags se utilizan para calcular la [Autocorrelación (ACF)](<Autocorrelación (ACF).md>), construir [Sliding Windows](<Sliding Windows.md>) y realizar [Forecasting](<Forecasting.md>).
 - ## Idea clave
   
   El lag indica cuántos instantes hacia atrás se observa una serie temporal.
 - ## Relacionado
-- [[Autocorrelación (ACF)]]
-- [[Serie Temporal]]
-- [[Sliding Windows]]
-- [[Forecasting]]
+- [Autocorrelación (ACF)](<Autocorrelación (ACF).md>)
+- [Serie Temporal](<Serie Temporal.md>)
+- [Sliding Windows](<Sliding Windows.md>)
+- [Forecasting](<Forecasting.md>)

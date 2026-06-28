@@ -1,4 +1,4 @@
-## Definición
+﻿## Definición
 
 El soporte local describe la cantidad de observaciones normales que existen alrededor de un punto del espacio de observaciones.
 
@@ -15,7 +15,7 @@ Es una medida de qué tan poblada o densa es una región.
   
   La detección estadística de anomalías consiste en identificar observaciones ubicadas en regiones de baja densidad o bajo soporte local.
 - ## Relacionado
-- [[Likelihood]]
-- [[Anomalía]]
-- [[Gaussian Mixture Model]]
-- [[Isolation Forest]]
+- [Likelihood](<Likelihood.md>)
+- [Anomalía](<Anomalía.md>)
+- [Gaussian Mixture Model](<Gaussian Mixture Model.md>)
+- [Isolation Forest](<Isolation Forest.md>)
