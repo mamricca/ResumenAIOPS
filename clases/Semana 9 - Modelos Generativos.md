@@ -129,7 +129,7 @@
 - PPCA además modela cómo se generan los datos.
   
   ---
-- # ⭐ Ideas para recordar
+- # Resumen
 - Una anomalía es una observación poco compatible con el comportamiento habitual.
 - La rareza estadística no implica necesariamente un incidente.
 - Las anomalías aparecen en regiones de baja densidad o bajo soporte local.
