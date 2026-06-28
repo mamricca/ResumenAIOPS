@@ -17,7 +17,7 @@
   La relación entre los conceptos es:
   
   | Concepto | Interpretación |
-  | ---- | ---- | ---- |
+  | ---- | ---- |
   | p(x) baja | combinación de KPI poco frecuente |
   | Poco soporte local | pocos vecinos cercanos |
   | Volumen | tamaño de la región donde buscamos vecinos |
